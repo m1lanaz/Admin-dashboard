@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    height: 100vh;
     display: grid;
     grid-template-areas: 
     'nav header header'
@@ -117,6 +118,40 @@ button {
 
 nav {
     grid-area: nav;
+    width: 18vw;
+    background-color: #D19EA5;
+    color: white;
+    padding: 20px 30px 0px 10px;
+}
+
+nav .bi {
+    margin-right: 10px;
+    font-size: 1.7rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    font-weight: 600;
+    margin: 8px;
+}
+
+nav ul .bi {
+    font-size: 1rem;
+}
+
+nav ul {
+    margin-bottom: 30px;
+}
+
+.dashboardTitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 main {
