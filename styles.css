@@ -19,6 +19,100 @@ body {
 
 header {
     grid-area: header;
+    height: 180px;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.1);
+    padding: 15px 45px 20px 45px;
+}
+
+.searchBar {
+    width: 450px;
+    height: 25px;
+    background-color: #E8EDEE;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.searchSection {
+    display: flex;
+    align-items: center;
+}
+
+.notifSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notifSection h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: auto;
+}
+
+.notifSection .bi {
+    margin: auto ;
+    font-size: 1.3rem;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.topHeader img {
+    width: 40px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+.bottomHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomHeader img{
+    width: 70px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.bottomHeader p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.bottomHeader h2 {
+    font-size: 1.2rem;
+}
+
+.profileDisplay {
+    display: flex;
+}
+
+.headerButtons {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.headerButtons button {
+    margin: 5px;
+}
+
+.welcomeText {
+    margin: auto;
+}
+
+button {
+    background-color: #D19EA5;
+    border: none;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: .8rem;
 }
 
 nav {
