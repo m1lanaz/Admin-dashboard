@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    'nav header header'
+    'nav projects announcements';
+    background-color: #E8EDEE;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: projects;
+}
+
+section {
+    grid-area: announcements;
+}
